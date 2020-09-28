@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RVB\\Documents\\Projects\\personal\\rise-and-fall\\rise-and-fall\\rise-and-fall\\rise-and-fall.csproj": {}
+    "C:\\Users\\RVB\\Documents\\Projects\\personal\\rise-and-fall\\rise-and-fall\\rise-and-fall.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RVB\\Documents\\Projects\\personal\\rise-and-fall\\rise-and-fall\\rise-and-fall\\rise-and-fall.csproj": {
+    "C:\\Users\\RVB\\Documents\\Projects\\personal\\rise-and-fall\\rise-and-fall\\rise-and-fall.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RVB\\Documents\\Projects\\personal\\rise-and-fall\\rise-and-fall\\rise-and-fall\\rise-and-fall.csproj",
+        "projectUniqueName": "C:\\Users\\RVB\\Documents\\Projects\\personal\\rise-and-fall\\rise-and-fall\\rise-and-fall.csproj",
         "projectName": "rise-and-fall",
-        "projectPath": "C:\\Users\\RVB\\Documents\\Projects\\personal\\rise-and-fall\\rise-and-fall\\rise-and-fall\\rise-and-fall.csproj",
+        "projectPath": "C:\\Users\\RVB\\Documents\\Projects\\personal\\rise-and-fall\\rise-and-fall\\rise-and-fall.csproj",
         "packagesPath": "C:\\Users\\RVB\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RVB\\Documents\\Projects\\personal\\rise-and-fall\\rise-and-fall\\rise-and-fall\\obj\\",
+        "outputPath": "C:\\Users\\RVB\\Documents\\Projects\\personal\\rise-and-fall\\rise-and-fall\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +40,21 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.SpaServices": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

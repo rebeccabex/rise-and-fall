@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace rise_and_fall.Models
+namespace rise_and_fall
 {
     public class Cell
     {
