@@ -23,5 +23,19 @@
     <None Remove="$(SpaRoot)**" />
     <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
   </ItemGroup>
+  
+  <ItemGroup>
+    <None Remove="client-app\src\Components\Map\MapPage.tsx" />
+    <None Remove="client-app\src\Components\Power\PowerPage.tsx" />
+    <None Remove="client-app\src\Components\Tab.tsx" />
+    <None Remove="client-app\src\Components\Tabs.tsx" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <TypeScriptCompile Include="client-app\src\Components\Map\MapPage.tsx" />
+    <TypeScriptCompile Include="client-app\src\Components\Power\PowerPage.tsx" />
+    <TypeScriptCompile Include="client-app\src\Components\Tab.tsx" />
+    <TypeScriptCompile Include="client-app\src\Components\Tabs.tsx" />
+  </ItemGroup>
 
 </Project>
