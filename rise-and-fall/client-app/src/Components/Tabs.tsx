@@ -1,5 +1,6 @@
 ﻿import React from 'react';
 import { Tab, TabProps } from './Tab';
+import './Tabs.scss';
 
 type TabListState = {
   activeTab: string,
@@ -32,7 +33,7 @@ export class Tabs extends React.Component<TabListProps, TabListState> {
     
     return (
       <div className="tabs">
-        <ol className="tabList">
+        <ol className="tab-list">
           {children.map((child: any) => {
             const tabIsActive = this.state.activeTab === child.props.label;
 
